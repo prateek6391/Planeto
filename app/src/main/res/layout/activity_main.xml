@@ -12,11 +12,11 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@drawable/bg_header"
-        android:orientation="horizontal"
-        android:layout_marginBottom="20dp">
+        android:orientation="horizontal">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:paddingLeft="10dp"
             android:text="Planeto"
             android:fontFamily="@font/poppins_semibold"
             android:gravity="start|bottom"
@@ -26,7 +26,9 @@
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_recycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:paddingTop="15dp"
         android:background="@color/primary"/>
 </LinearLayout>
